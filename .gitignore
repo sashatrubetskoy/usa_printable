@@ -1,0 +1,15 @@
+# Whitelist: this repo versions only the deliverables (the poster PDF and the
+# generated map data/outputs). Source scripts and raw downloads stay untracked;
+# see README for how everything is rebuilt.
+/*
+!/.gitignore
+!/README.md
+!/usa_printable.pdf
+!/out
+!/web
+/web/*
+!/web/data.js
+!/data
+/data/*
+!/data/cities_render.csv
+!/data/cities_scored.csv
