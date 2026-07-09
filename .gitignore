@@ -1,6 +1,7 @@
 # Whitelist: this repo versions only the final deliverable (the poster PDF).
 # Everything else — source scripts, raw downloads, and generated/intermediate
-# outputs (data/, out/, web/) — stays untracked; see README for how it's rebuilt.
+# outputs (data/, out/, web/) — stays untracked (rebuild notes: DEVELOPMENT.md,
+# itself untracked).
 /*
 !/.gitignore
 !/README.md
